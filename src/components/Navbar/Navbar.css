@@ -1,0 +1,28 @@
+.nav {
+  padding: 20px;
+  background-color: #212329;
+}
+
+.nav-list {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-list > a {
+  color: azure;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-list > a:hover {
+  color: #4fa1b9;
+  text-decoration: underline;
+}
+
+.nav-list > .active {
+  color: #61dafb;
+  text-decoration: underline;
+}
